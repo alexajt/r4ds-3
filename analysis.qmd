@@ -1,0 +1,15 @@
+---
+title: "Analyzing School District Reading Scores"
+format: html
+author: Alexa Titherington
+execute:
+  echo: false
+---
+
+```{r}
+#| message: false
+library(tidyverse)
+library(DBI)
+library(duckdb)
+library(dbplyr)
+```
